@@ -1,5 +1,8 @@
 package lld.logging;
 
+import lld.logging.observer.ConsoleObserver;
+import lld.logging.observer.FileObserver;
+
 public class CustomLogManager {
   protected static AbstractCustomLogger buildChainOfLogger() {
     AbstractCustomLogger infoLogger = new InfoLogger(1);

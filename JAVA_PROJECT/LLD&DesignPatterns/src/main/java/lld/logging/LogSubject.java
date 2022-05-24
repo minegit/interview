@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import lld.logging.observer.LogObserver;
 
 public class LogSubject {
   Map<Integer, List<LogObserver>> logObservers = new HashMap<Integer, List<LogObserver>>();

@@ -1,4 +1,4 @@
-package lld.logging;
+package lld.logging.observer;
 
 public class FileObserver implements LogObserver {
 
